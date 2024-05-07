@@ -1,0 +1,45 @@
+/* term.css */
+
+/* Container styles */
+.term-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.term-heading {
+  color: #ff69b4; /* Light pink color for headings */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Content paragraph styles */
+.term-paragraph {
+  color: #333; /* Dark gray color for paragraphs */
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+.term-button {
+  background-color: #ff69b4; /* Light pink color for buttons */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.term-button:disabled {
+  background-color: #ccc; /* Light gray color for disabled button */
+  cursor: not-allowed;
+}
+
+.term-button:hover {
+  background-color: #d5008f; /* Darker pink color on hover */
+}

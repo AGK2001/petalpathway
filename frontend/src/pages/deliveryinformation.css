@@ -1,0 +1,48 @@
+/* DeliveryInformation.css */
+.delivery-info {
+    margin-top: 20px;
+    padding: 30px; /* Increased padding for a bigger appearance */
+    background-color:rgb(243, 206, 228); /* White background */
+    border: 2px solid #f9e6e6; /* Light pink border */
+    border-radius: 10px; /* Increased border radius for a softer look */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth effect */
+}
+
+.delivery-info h2 {
+    color:rgb(21, 5, 8); /* Cute pink color for headers */
+    font-size: 24px; /* Increased font size for a bigger appearance */
+    margin-bottom: 20px;
+}
+
+.delivery-options {
+    display: flex;
+    flex-wrap: wrap; /* Allow delivery options to wrap to next line if necessary */
+}
+
+.delivery-option {
+    flex: 0 0 calc(50% - 20px); /* Each option takes up 50% of the container width with some spacing */
+    margin: 10px; /* Spacing between delivery options */
+    padding: 20px;
+    background-color: #fef1f0; /* Light pink background */
+    border: 1px solid #f9e6e6; /* Light pink border */
+    border-radius: 10px; /* Increased border radius for a softer look */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth effect */
+}
+
+.delivery-option h3 {
+    color:lightpink; /* Cute pink color for option headers */
+    font-size: 20px; /* Increased font size for a bigger appearance */
+    margin-bottom: 15px;
+}
+
+.delivery-option p {
+    color: #333;
+    font-size: 16px; /* Increased font size for a bigger appearance */
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    color: #666;
+    font-size: 18px; /* Increased font size for a bigger appearance */
+}

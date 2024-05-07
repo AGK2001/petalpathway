@@ -1,0 +1,42 @@
+.privacy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif; /* Use a commonly available font */
+  }
+  
+  .privacy-content {
+    color: #333; /* Dark gray text color for better readability */
+    font-size: 16px; /* Increase the font size */
+    line-height: 1.6; /* Improve line spacing for readability */
+  }
+  
+  .privacy-content h2 {
+    color: lightpink; /* Light pink for headings */
+    font-size: 34px; /* Larger font size for headings */
+    margin-bottom: 20px; /* Add margin below headings */
+  }
+  
+  .privacy-content h3 {
+    color: lightpink; /* Light pink for subheadings */
+    font-size: 20px; /* Larger font size for subheadings */
+    margin-top: 30px; /* Increase top margin for subheadings */
+  }
+  
+  .privacy-content p {
+    margin-bottom: 20px;
+  }
+  
+  .privacy-content a {
+    color: lightpink; /* Light pink for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .privacy-content a:hover {
+    color: lightpink; /* Darker pink on hover */
+  }
+  

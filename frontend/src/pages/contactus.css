@@ -1,0 +1,23 @@
+.contact-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-text {
+    color: #333;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info h3 {
+    color: #ff8b8b; /* Light pink */
+  }
+  
+  .contact-info p {
+    color: #666;
+  }
+  

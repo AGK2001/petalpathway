@@ -1,0 +1,82 @@
+
+/* Main container */
+.checkout-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .checkout-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333; /* Dark text */
+    margin-bottom: 20px;
+  }
+  
+  /* Total amount */
+  .total-amount {
+    font-size: 18px;
+    color: #333333; /* Dark text */
+    margin-bottom: 10px;
+  }
+  
+  /* Form labels */
+  .label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333333; /* Dark text */
+  }
+  
+  /* Input fields */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 5px;
+  }
+  
+  /* Payment buttons */
+  .payment-buttons {
+    margin-top: 20px;
+  }
+  
+  /* Pay Now button */
+  .pay-now-btn {
+    padding: 10px 20px;
+    background-color: #ff4081; /* Pink */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pay-now-btn:hover {
+    background-color: #e91e63; /* Lighter pink on hover */
+  }
+  
+  /* Cancel button */
+  .cancel-btn {
+    padding: 10px 20px;
+    background-color: #cccccc; /* Light gray */
+    color: #333333; /* Dark text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #b3b3b3; /* Darker gray on hover */
+  }
+  
+  /* Error message */
+  .error-message {
+    color: #ff0000; /* Red */
+    margin-top: 10px;
+  }
+  
